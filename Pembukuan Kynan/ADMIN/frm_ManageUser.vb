@@ -9,7 +9,7 @@ Public Class frm_ManageUser
         txt_name.Clear()
         txt_password.Clear()
         txt_username.Clear()
-        cbo_role.Items.Clear()
+        cbo_role.SelectedIndex = -1
     End Sub
 
     Private Sub btn_cancel_Click(sender As Object, e As EventArgs) Handles btn_cancel.Click
@@ -37,5 +37,13 @@ Public Class frm_ManageUser
         End Try
         conn.Close()
         clear()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub cbo_role_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbo_role.SelectedIndexChanged
+
     End Sub
 End Class

@@ -55,7 +55,7 @@ Partial Class frm_login
         btn_login.ForeColor = SystemColors.ControlLightLight
         btn_login.Location = New Point(24, 179)
         btn_login.Name = "btn_login"
-        btn_login.Size = New Size(223, 30)
+        btn_login.Size = New Size(223, 35)
         btn_login.TabIndex = 2
         btn_login.Text = "Login"
         btn_login.UseVisualStyleBackColor = False
@@ -68,7 +68,7 @@ Partial Class frm_login
         btn_exit.ForeColor = SystemColors.ControlLightLight
         btn_exit.Location = New Point(24, 215)
         btn_exit.Name = "btn_exit"
-        btn_exit.Size = New Size(223, 30)
+        btn_exit.Size = New Size(223, 35)
         btn_exit.TabIndex = 3
         btn_exit.Text = "Exit"
         btn_exit.UseVisualStyleBackColor = False

@@ -106,9 +106,9 @@ Partial Class frm_ManageUser
         Label2.AutoSize = True
         Label2.Location = New Point(104, 70)
         Label2.Name = "Label2"
-        Label2.Size = New Size(62, 15)
+        Label2.Size = New Size(60, 15)
         Label2.TabIndex = 7
-        Label2.Text = "UserName"
+        Label2.Text = "Username"
         ' 
         ' Label3
         ' 
